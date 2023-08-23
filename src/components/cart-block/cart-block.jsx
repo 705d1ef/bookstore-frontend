@@ -1,10 +1,12 @@
 import React from "react";
-import "./cart-block.css"
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import "./cart-block.css";
 
 export const CartBlock = () => {
     return (
         <div className="cart-block">
-            CartBlock
+            <AiOutlineShoppingCart size={25} className="cart-block__icon"/>
+            <span className="cart-block__total-price"> 213 £.</span>
         </div>
     )
 }
