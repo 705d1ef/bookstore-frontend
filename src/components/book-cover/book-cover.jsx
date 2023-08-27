@@ -1,8 +1,6 @@
 import React from "react";
-import './book-cover.css'
+import "./book-cover.css";
 
 export const BookCover = ({ cover = "" }) => {
-  return (
-    <div className="book-cover" style={{ backgroundImage: `url(${cover})` }} />
-  );
+  return <div style={{ backgroundImage: `url(${cover})` }} />;
 };
