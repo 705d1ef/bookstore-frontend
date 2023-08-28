@@ -3,13 +3,12 @@ import { Link } from "react-router-dom";
 import { CartBlock } from "../cart-block";
 import "./header.css";
 
-
 export const Header = () => {
   return (
-    <div className="header" Header>
+    <div className="header">
       <div className="wrapper">
         <Link to="/" className="header__store-title">
-            Bookstore
+          BookStore
         </Link>
       </div>
       <div className="wrapper header__cart-btn-wrapper">

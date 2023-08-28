@@ -1,8 +1,8 @@
 .book-item {
   text-decoration: none;
   color: white;
-  width: 320px;
-  height: 300px;
+  width: 280px;
+  height: 350px;
   background-color: rgb(36, 37, 41);
   border-radius: 15px;
   cursor: pointer;
@@ -10,8 +10,8 @@
 }
 
 .book-item:not(:last-child) {
-  margin-bottom: 30px;
-  margin-right: 50px;
+  margin-bottom: 100px;
+  margin-right: 40px;
 }
 
 .book-item__title {
