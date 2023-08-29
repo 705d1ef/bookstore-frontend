@@ -11,7 +11,7 @@ export const BookItem = ({ book }) => {
       <span className="book-item__title">{book.title}</span>
       <div className="book-item__author">{book.author}</div>
       <div className="book-item__buy">
-        <BookBuy book={book.price} />
+        <BookBuy book={book} />
       </div>
     </div>
   );
