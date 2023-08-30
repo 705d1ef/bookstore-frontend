@@ -7,7 +7,7 @@ export const BookBuy = ({ book }) => {
     <div className="book-buy">
       <span className="book-buy__price">{book.price}</span>
       <Button type="primary" onClick={() => null}>
-        To Basket
+        Add to Card
       </Button>
     </div>
   );
