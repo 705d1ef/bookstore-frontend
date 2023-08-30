@@ -12,7 +12,6 @@ export const BookItem = ({ book }) => {
       <div className="book-item__author">{book.author}</div>
       <div className="book-item__buy">
         <BookBuy book={book} />
-        create_button_GameBuy
       </div>
     </div>
   );
