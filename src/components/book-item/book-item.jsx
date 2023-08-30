@@ -12,7 +12,11 @@ export const BookItem = ({ book }) => {
       <div className="book-item__author">{book.author}</div>
       <div className="book-item__buy">
 <<<<<<< HEAD
+<<<<<<< HEAD
         <BookBuy book={book.price} />
+=======
+        <BookBuy book={book} />
+>>>>>>> create_button_GameBuy
 =======
         <BookBuy book={book} />
 >>>>>>> create_button_GameBuy

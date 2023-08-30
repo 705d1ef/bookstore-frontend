@@ -1,6 +1,10 @@
 import React from "react";
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+import { Button } from "../button";
+>>>>>>> create_button_GameBuy
 =======
 import { Button } from "../button";
 >>>>>>> create_button_GameBuy
@@ -11,6 +15,12 @@ export const BookBuy = ({ book }) => {
     <div className="book-buy">
       <span className="book-buy__price">{book.price}</span>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+      <Button type="primary" onClick={() => null}>
+        To Basket
+      </Button>
+>>>>>>> create_button_GameBuy
 =======
       <Button type="primary" onClick={() => null}>
         To Basket
