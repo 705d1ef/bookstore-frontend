@@ -12,7 +12,7 @@ export const BookItem = ({ book }) => {
     const dispatch = useDispatch();
     const handleClick = () => {
         dispatch(setCurrentBook(book));
-        navigate.push(`/app/${book.title}`);
+        navigate(`/app/${book.title}`);
     };
     return (
         <div className="book-item" onClick={handleClick}>
