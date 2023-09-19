@@ -17,12 +17,12 @@ export const BookPage = () => {
                     <BookCover image={book.image} />
                     <p>{book.description}</p>
                     <p className="Популярные метки для этого продукта"></p>
-                    <div className="book-page__buy-book">
-                        <BookBuy book={book} />
-                    </div>
+                </div>
+                <div className="book-page__buy-book">
+                    <span className="gogo"></span>
+                    <BookBuy book={book} />
                 </div>
             </div>
         </div>
     );
 };
-

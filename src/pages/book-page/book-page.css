@@ -1,15 +1,50 @@
 .book-page__content {
-    display: flex;
+  display: flex;
 }
 
-.book-page__left {
-    height: 400%;
+.book-page .book-page__left{
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  text-align: left;
+  top: 220px;
+  left: 350px;
+  cursor: pointer;
+}
+
+
+.book-page .book-buy__price{
+  position: absolute;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 2px;
+  width: 460px;
+  left: 700px;
+  top: 433px;
+  font-size: 32px;
+  text-align: right;
 
 }
 
 
-.book-page__buy-book {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 20px;
+.book-page .btn{
+  font-size: 24px;
+  position: absolute;
+  height: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  top: 533px;
+  left: 970px;
+}
+
+.book-page .gogo{
+  position: absolute;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 2px;
+  height: 100px;
+  width: 460px;
+  left: 700px;
+  top: 498px;
+
 }

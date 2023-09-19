@@ -18,9 +18,9 @@ export const BookBuy = ({ book }) => {
     };
     return (
         <div className="book-buy">
-            <span className="book-buy__price">{book.price} £.</span>
+            <span className="book-buy__price">Price: £{book.price}</span>
             <Button type={isItemInCart ? "secondary" : "primary"} onClick={handleClick}>
-                {isItemInCart ? "Delete" : "Add to Basket"}
+                {isItemInCart ? "DELETE" : "ADD TO BASKET"}
             </Button>
         </div>
     );
