@@ -12,6 +12,15 @@ export const BookPage = () => {
     return (
         <div className="book-page">
             <h1 className="book-page__title">{book.title}</h1>
+            <span className="book-page__author">{book.author}</span>
+            <span className="author">(Author)</span>
+            <div className="star-rating">
+                <span className="star-icon">★</span>
+                <span className="star-icon">★</span>
+                <span className="star-icon">★</span>
+                <span className="star-icon">★</span>
+                <span className="star-icon">★</span>
+            </div>
             <div className="book-page__content">
                 <div className="book-page__left">
                     <BookCover image={book.image} />

@@ -35,10 +35,12 @@
   overflow: hidden;
   top: 34px;
   left: 270px;
-  
+
 }
 
 .book-page .btn--secondary{
+
+  font-size: 24px;
   left: 370px;
 }
 
@@ -52,4 +54,37 @@
   left: 700px;
   top: 498px;
 
+}
+
+.book-page .book-page__title{
+  position: absolute;
+  left: 700px;
+  top: 198px;
+}
+
+.book-page .book-page__author{
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  font-size: 25px;
+  left: 700px;
+  top: 280px;
+}
+
+.book-page  .author{
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  font-size: 20px;
+  left: 845px;
+  top: 284px;
+}
+
+.book-page .star-rating{
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  font-size: 20px;
+  left: 700px;
+  top: 350px;
 }
