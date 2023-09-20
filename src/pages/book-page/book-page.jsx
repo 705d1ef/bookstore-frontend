@@ -19,7 +19,6 @@ export const BookPage = () => {
                     <p className="Популярные метки для этого продукта"></p>
                 </div>
                 <div className="book-page__buy-book">
-                    <span className="gogo"></span>
                     <BookBuy book={book} />
                 </div>
             </div>

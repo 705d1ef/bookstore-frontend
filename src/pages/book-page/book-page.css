@@ -33,11 +33,16 @@
   height: 50px;
   white-space: nowrap;
   overflow: hidden;
-  top: 533px;
-  left: 970px;
+  top: 34px;
+  left: 270px;
+  
 }
 
-.book-page .gogo{
+.book-page .btn--secondary{
+  left: 370px;
+}
+
+.book-page .book-buy__button{
   position: absolute;
   border: 1px solid gray;
   padding: 10px;
