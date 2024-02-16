@@ -1,5 +1,6 @@
 .cart-block {
     display: flex;
+    margin-top: 192px;
     align-items: center;
     position: relative;
 }
@@ -8,9 +9,11 @@
     margin-left: 15px;
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 190px;
 }
 
 .cart-icon {
     cursor: pointer;
     position: relative;
+    margin-bottom: 190px;
 }

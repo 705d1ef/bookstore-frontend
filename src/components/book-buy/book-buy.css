@@ -1,3 +1,10 @@
 .book-buy__price {
-  margin-right: 5px;
+  left: 66px;
+  font-size: 15px;
+  bottom: 6px;
+  position: relative;
+}
+
+.book-buy__button {
+  margin-left: 41px;
 }

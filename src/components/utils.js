@@ -1,5 +1,4 @@
 export const calcTotalPrice = (items) => items.reduce((acc, item) => (acc += item.price), 0);
-
 export const enumerate = (num, dec) => {
     if (num > 100) num = num % 100;
     if (num <= 20 && num >= 10) return dec[2];

@@ -1,32 +1,51 @@
 .book-item {
+  display: block;
+  float: left;
   text-decoration: none;
   color: white;
-  width: 285px;
-  height: 370px;
-  background-color: rgb(36, 37, 41);
+  width: 210px;
+  height: 300px;
+  background-color: rgb(59, 60, 67);
   border-radius: 15px;
   cursor: pointer;
   position: relative;
 }
 
 .book-item:not(:last-child) {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   margin-right: 40px;
 }
 
+.book-cover{
+  width: 168px;
+  height: 224px;
+}
+
 .book-item__title {
-  font-size: 18px;
+  position: absolute;
+  top: -20px;
+  font-size: 14px;
   font-weight: bold;
 }
 
-.book-item__genre {
-  margin-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
+.book-buy__price {
+  cursor: default;
 }
 
-.book-item__details {
-  padding: 10px 20px;
+.book-item .stars-rating {
+  position: relative;
+  width: 100px;
+  left: 60px;
+  font-size: 18px;
+  top: 10px;
+}
+
+ .book-item .rating-average{
+  color: #ffc107 !important;
+}
+
+.book-item .rate {
+  display: none;
 }
 
 .book-item__description {
@@ -36,6 +55,9 @@
 
 .book-item__buy {
   position: absolute;
-  right: 0;
-  bottom: -82px;
+  bottom: -6px;
+}
+
+.book-item:hover {
+	transform: scale(1.05);
 }
