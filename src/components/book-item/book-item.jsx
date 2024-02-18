@@ -5,7 +5,10 @@ import { useNavigate } from "react-router-dom";
 import { BookBuy } from "../book-buy";
 import { BookCover } from "../book-cover";
 import { StarRating } from "../star-rating";
+<<<<<<< HEAD
 import { setCurrentBook } from "../../store/books/booksSlice";
+=======
+>>>>>>> star_rating_2
 import { getBooks } from "../../store/books/booksSlice";
 import "./book-item.css";
 

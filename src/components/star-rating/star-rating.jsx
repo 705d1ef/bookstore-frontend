@@ -1,5 +1,9 @@
 import React, { useState } from "react";
+<<<<<<< HEAD
 import { MdOutlineStarPurple500 } from "react-icons/md"; //dark
+=======
+import { MdOutlineStarPurple500 } from "react-icons/md";
+>>>>>>> star_rating_2
 import "./star-rating.css";
 
 export const StarRating = (props) => {
@@ -10,11 +14,14 @@ export const StarRating = (props) => {
     const nonFraction = Math.trunc(decimal);
     const fraction = Number((decimal - nonFraction).toFixed(2));
     const fractionPercent = fraction * 100;
+<<<<<<< HEAD
     //const st1 = props.rating;
     //const starPercentage = (st1 /5) * 100;
     //const starProcenteRounded = `${Math.round(starPercentage / 10) * 10}%`;
     //console.log(fractionPercent) // was 68 aft 40      rating 4.67=47; rating  1=10
     //console.log(starProcenteRounded)
+=======
+>>>>>>> star_rating_2
     const [rating, setRating] = useState(null);
     const [hover, setHover] = useState(null);
 
@@ -60,6 +67,7 @@ export const StarRating = (props) => {
         </div>
     );
 };
+<<<<<<< HEAD
 // #EBC03F  main good color -> #ffc107
 // good color #8B8000
 //export const StarRating = () => {
@@ -706,3 +714,5 @@ export const StarRating = (props) => {
 //};
 
 //export default Rating;
+=======
+>>>>>>> star_rating_2

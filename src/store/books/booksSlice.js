@@ -42,6 +42,7 @@ const booksSlice = createSlice({
 });
 export const { setCurrentBook } = booksSlice.actions;
 export default booksSlice.reducer;
+<<<<<<< HEAD
 
 //import { createSlice } from "@reduxjs/toolkit";
 //
@@ -59,3 +60,5 @@ export default booksSlice.reducer;
 //
 //export const { setCurrentBook } = booksSlice.actions;
 //export default booksSlice.reducer;
+=======
+>>>>>>> star_rating_2

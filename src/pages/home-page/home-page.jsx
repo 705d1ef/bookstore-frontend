@@ -4,6 +4,7 @@ import { getBooks } from "../../store/books/booksSlice";
 import { BookItem } from "../../components/book-item";
 import "./home-page.css";
 
+<<<<<<< HEAD
 export const HomePage = ({rating}) => {
     const dispatch = useDispatch();
     const { books, isLoading } = useSelector((state) => state.books);
@@ -16,6 +17,18 @@ export const HomePage = ({rating}) => {
     return <div className="home-page">{books && books.map((book) => <BookItem key={book.id} {...book} />)}
 
     </div>
+=======
+export const HomePage = ({ rating }) => {
+    const dispatch = useDispatch();
+    const { books, isLoading } = useSelector((state) => state.books);
+
+    useEffect(() => {
+        dispatch(getBooks());
+    }, [dispatch]);
+
+    if (isLoading) return <h2>Loading...</h2>;
+    return <div className="home-page">{books && books.map((book) => <BookItem key={book.id} {...book} />)}</div>;
+>>>>>>> star_rating_2
 };
 
 //----------------------------------------------------------------------------------------
