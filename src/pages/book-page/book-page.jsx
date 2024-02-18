@@ -11,22 +11,13 @@ import "./book-page.css";
 export const BookPage = () => {
     const { id } = useParams();
     const dispatch = useDispatch();
-<<<<<<< HEAD
-    const { book, isLoading } = useSelector((state) => state.book);
-=======
     const { book } = useSelector((state) => state.book);
->>>>>>> star_rating_2
     useEffect(() => {
         dispatch(getBook(id));
     }, [dispatch, id]);
 
     if (!book) return <h2>I'm working on it!</h2>;
-<<<<<<< HEAD
-    //if (isLoading) return <h2>I'm working on it!</h2>; rating={book.rate}/
-=======
->>>>>>> star_rating_2
 
-    //console.log(book.rating)
     return (
         <div className="book-page">
             <h1 className="book-page__title">{book.title}</h1>
