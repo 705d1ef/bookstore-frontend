@@ -19,7 +19,7 @@ export const BookItem = ({ id, cover, title, price, rating }) => {
     return (
         <div className="book-item" onClick={handleClick}>
             <BookCover image={cover} />
-            <span className="book-item__title">{title}</span>
+
             <div className="book-item__buy">
                 <BookBuy book={{ id, price, title }} />
             </div>
@@ -29,3 +29,4 @@ export const BookItem = ({ id, cover, title, price, rating }) => {
         </div>
     );
 };
+
