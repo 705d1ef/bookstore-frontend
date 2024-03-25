@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Frontend for Bookstore app
+
+Built on React.js/Redux. Backend side can be found in the separate repo.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
