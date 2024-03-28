@@ -2,6 +2,14 @@
 
 Built on React.js/Redux. Backend side can be found in the separate repo.
 
+## Screenshots
+
+![Screenshot (119)](https://github.com/705d1ef/bookstore-frontend/assets/92192816/a8811726-2a95-43a6-9ac7-30ca981eb825)
+
+![Screenshot (120)](https://github.com/705d1ef/bookstore-frontend/assets/92192816/4ed11251-b742-4045-82f7-76ae98b282b5)
+
+![Screenshot (121)](https://github.com/705d1ef/bookstore-frontend/assets/92192816/07bcd17d-892c-400b-b556-078ad4510c00)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
