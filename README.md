@@ -1,6 +1,6 @@
 # Frontend for Bookstore app
 
-Built on React.js/Redux. Backend side can be found in the separate repo.
+Built on React.js/Redux. Backend side can be found in the separate [repo](https://github.com/705d1ef/bookstore-backend/tree/main).
 
 ## Screenshots
 
